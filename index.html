@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisper Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+     <!-- your section elements here -->
+    
+
+    <header class="head">
+        <h1>🌿 WhisperNotes</h1>
+        <h4>💬 Speak your mind, we will listen. 🌿</h4>
+    </header>
+
+    <section class="sec">
+        <button id="btn1">Start</button>
+        <p>Start recording...</p>
+
+        <button id="btn2">Stop</button>
+        <p>Stop recording...</p>
+        <textarea id="notes"placeholder="feed me your thoughts💫"></textarea>
+    </section>
+
+    <section id="summary">
+        <h2>Weekly Mood Summary</h2>
+        <canvas id="moodChart"></canvas>
+    </section>
+
+</main>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
